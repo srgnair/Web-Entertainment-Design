@@ -15,14 +15,16 @@ html {
 }
 
 body {
-    background-color: #f5f5f5;
-    color: #333;
-    font-size: 0.75rem;
-    font-family: 'Raleway', sans-serif;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 0.875rem;
+    font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-    color: #333;
+    color: #000;
     text-decoration: none;
     cursor: pointer;
 }
@@ -35,9 +37,180 @@ a:hover, button:hover{
 img {
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 li {
     list-style: none;
 }
 
+address{
+    font-style: normal;
+}
+
+header,
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo,
+.footer__logo {
+    max-width: 100px;
+}
+
+h1{
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: normal;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    display: inline-block;
+    background-color: #000;
+    position: absolute;
+
+}
+
+.title a {
+    display: flex;
+    flex-direction: column;
+}
+
+.en {
+    font-size: 2.25rem;
+    letter-spacing: 0.675rem;
+}
+
+.ja {
+    font-size: 0.875rem;
+    padding-bottom: 36px;
+}
+
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
+header{
+    height: 10vh;
+}
+
+.header__left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header__logo{
+    margin-right: 60px;
+}
+
+.header__menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu li{
+    margin-right: 30px;
+}
+
+.header__menu li:last-of-type{
+    margin-right: 0;
+}
+
+.header__contact{
+    background-color: #000;
+    padding: 30px 65px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.header__contact a{
+    color: #fff;
+}
+
+/*-------------------------------------------
+main
+-------------------------------------------*/
+
+.main-visual{
+    width: 100vw;
+    height: 90vh;
+}
+
+.main-visual img{
+    height: 100%;
+}
+
+.news__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__item{
+    border-left: #000 solid 1px;
+    margin-right: 79px;
+    padding-left: 20px;
+}
+
+.news__item:first-child{
+    border-left: none;
+}
+
+.news__item span{
+    line-height: 1.25rem;
+    display: inline-block;
+}
+
+.news__tag{
+    font-size: 0.75rem;
+    background-color: #000;
+    color: #fff;
+    padding: 0 6px;
+}
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+
+footer{
+    background-color: #fff;
+}
+
+.footer__wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/*-------------------------------------------
+完成後削除
+-------------------------------------------*/
+
+body{
+    background-color: aqua;
+}
+
+header{
+    background-color: bisque;
+}
+
+.wrapper{
+    background-color: chocolate;
+}
