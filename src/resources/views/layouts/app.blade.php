@@ -23,7 +23,7 @@
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#business">BUSINESS</a></li>
                 <li><a href="#company">COMPANY</a></li>
-                <li class="header__responsive-menu"><a href="{{ asset('contact') }}"></a><i class="fa-solid fa-envelope"></i></li>
+                <li class="header__responsive-menu"><a href="{{ route('contact') }}"><i class="fa-solid fa-envelope"></i></a></li>
             </ul>
         </nav>
     </div>
