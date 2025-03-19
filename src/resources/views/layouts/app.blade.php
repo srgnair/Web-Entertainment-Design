@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     @yield('css')
     @yield('title')
 </head>
@@ -22,6 +23,7 @@
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#business">BUSINESS</a></li>
                 <li><a href="#company">COMPANY</a></li>
+                <li class="header__responsive-menu"><a href="{{ asset('contact') }}"></a><i class="fa-solid fa-envelope"></i></li>
             </ul>
         </nav>
     </div>

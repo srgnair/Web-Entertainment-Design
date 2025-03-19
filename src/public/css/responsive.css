@@ -1,0 +1,147 @@
+@media screen and (max-width: 900px) {
+    /*-------------------------------------------
+    共通
+    -------------------------------------------*/
+
+    .wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+    /*-------------------------------------------
+    header
+    -------------------------------------------*/
+
+    header {
+            padding: 15px;
+        }
+
+    .header__left {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: normal;
+    }
+
+    .header__logo {
+        margin: 0 0 8px 0;
+    }
+
+    .header__contact {
+        display: none;
+    }
+
+    .header__menu li {
+        margin-right: 25px;
+    }
+
+    .header__responsive-menu {
+        display: inline-block;
+    }
+
+    /*-------------------------------------------
+    main
+    -------------------------------------------*/
+
+    .contact__title {
+        margin: 40px 0;
+    }
+
+    .contact__form {
+        margin: 40px auto 120px;
+    }
+
+    .main-visual {
+        margin-bottom: 80px;
+    }
+
+    .news {
+        margin-bottom: 90px;
+    }
+
+    .ja {
+        padding-bottom: 24px;
+    }
+
+    .top .news__list {
+        flex-direction: column;
+        margin-top: 44px;
+        align-items: normal;
+    }
+
+    .top .news__item {
+        border-left: none;
+        padding: 0 0 40px;
+    }
+
+    .top .news__text {
+        margin-top: 10px;
+    }
+
+    .about {
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .about__text {
+        padding: 30px 16px 0;
+    }
+
+    .business__container {
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 80px;
+    }
+
+    .business__left {
+        margin-top: 34px;
+    }
+
+    .company__container {
+        width: 100%;
+        padding: 40px 20px;
+        margin-bottom: 430px;
+    }
+
+    .company__image {
+        top: 105%;
+        left: 0;
+        width: 100%;
+    }
+
+
+    .en {
+        font-size: 2rem;
+    }
+    /*-------------------------------------------
+    footer
+    -------------------------------------------*/
+
+    footer {
+        padding: 0 16px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        align-items: normal;
+        padding-top: 48px;
+    }
+
+    /*-------------------------------------------
+    news-press
+    -------------------------------------------*/
+
+    .news-press__tab {
+        display: flex;
+    }
+
+    .news-press__news-tab,
+    .news-press__press-tab {
+        flex: 1;
+    }
+
+    .news-press {
+        margin: 40px auto 120px;
+    }
+
+}
