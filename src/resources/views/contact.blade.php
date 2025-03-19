@@ -14,9 +14,7 @@
 
 <section id="contact" class="contact wrapper">
     <h2 class="contact__title title">
-        <a href="#">
-            <span class="news__title-en en">Contact</span>
-        </a>
+        <span class="news__title-en en">Contact</span>
     </h2>
     <p>お仕事のご依頼やご相談は下記のフォームからお問い合わせください。</p>
     <form action="#" class="contact__form">

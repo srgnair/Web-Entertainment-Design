@@ -11,10 +11,10 @@
 </head>
 
 <body class="@yield('body-class')">
-<header>
+<header id="#top">
     <div class="header__left">
         <h1 class="header__logo">
-            <a href="#"><img src="{{ asset('images/logo.svg') }}" alt="Web Entertainment Designのロゴ"></a>
+            <a href="{{ route('top') }}"><img src="{{ asset('images/logo.svg') }}" alt="Web Entertainment Designのロゴ"></a>
         </h1>
         <nav class="header__menu">
             <ul>
@@ -26,7 +26,7 @@
         </nav>
     </div>
     <div class="header__contact">
-        <a href="#">お問い合わせ</a>
+        <a href="{{ route('contact') }}">お問い合わせ</a>
     </div>
 </header>
 
@@ -38,7 +38,7 @@
     <div class="footer__wrapper">
         <div class="footer__top">
             <h1 class="footer__logo">
-                <a href="#"><img src="{{ asset('images/logo.svg') }}" alt="WED"></a>
+                <a href="#top"><img src="{{ asset('images/logo.svg') }}" alt="WED"></a>
             </h1>
             <div class="footer__info">
                 <p class="footer__info--company-name">Web Entertainment Design Inc.</p>

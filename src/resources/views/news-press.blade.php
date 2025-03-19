@@ -14,11 +14,11 @@
 
 <section id="news-press" class="news-press wrapper">
     <h2 class="news-press__title title">
-        <a href="#">
+        <a href="#news">
             <span class="news__title-en en">News &amp; Press</span>
         </a>
     </h2>
-    <div class="news-press__tab">
+    <div id="news" class="news-press__tab">
         <a class="news-press__news-tab" href="#">ニュース</a>
         <a class="news-press__press-tab" href="#">プレスリリース</a>
     </div>
