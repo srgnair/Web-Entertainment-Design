@@ -1,0 +1,46 @@
+.contact__title{
+    margin: 80px 0;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.contact__form-item{
+    margin-bottom: 30px;
+}
+
+label{
+}
+
+input,textarea {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+input{
+    height: 51px;
+}
+
+textarea{
+    min-height: 180px;
+    resize: vertical;
+}
+
+.contact__form span{
+    color: #ff0000;
+}
+
+.contact__form button{
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px 0;
+    cursor: pointer;
+}

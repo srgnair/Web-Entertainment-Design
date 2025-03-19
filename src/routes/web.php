@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/news', function () {
     return view('news-press');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
