@@ -7,9 +7,11 @@ HTML/CSSの学習を目的として、デザインカンプを元にコーディ
 
 ## スクリーンショット
 
-![Image](https://github.com/user-attachments/assets/d0beaa27-ec8a-4e54-be47-b06d5b388109)
+![Image](https://github.com/user-attachments/assets/dae47b17-c8de-491b-8619-9210559caecc)
 
-<img src="https://github.com/user-attachments/assets/4ff632d0-8f16-4295-a2c7-d87b1e22bfda" width="350px">
+![Image](https://github.com/user-attachments/assets/cc41655d-111d-45cb-a8f1-10390f013383)
+
+<img src="https://github.com/user-attachments/assets/6a189f59-42e5-4fd0-a3cc-bb15fa8c6e7c" width="350px">
 
 ## 使用技術
 
