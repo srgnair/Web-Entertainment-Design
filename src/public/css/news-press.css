@@ -1,0 +1,28 @@
+.news-press{
+    margin-top: 80px;
+}
+
+.news-press__tab{
+    margin-top: 100px;
+    border-bottom: 1px solid #000;
+}
+
+.news-press__tab a{
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.news-press__news-tab{
+    border-bottom: 2px solid #000;
+}
+
+.news__item{
+    padding: 50px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.news__text{
+    margin-top: 10px;
+}
