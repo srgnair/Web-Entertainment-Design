@@ -18,7 +18,7 @@
 
 <section id="news" class="news wrapper">
     <h2 class="news__title title">
-        <a href="#">
+        <a href="{{ route('news') }}">
             <span class="news__title-en en">NEWS</span>
             <span class="news__title-ja ja">ニュース</span>
         </a>
