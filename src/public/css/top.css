@@ -150,6 +150,10 @@ header{
     padding: 30px 65px;
 }
 
+.header__responsive-menu{
+    display: none;
+}
+
 /*-------------------------------------------
 main
 -------------------------------------------*/
@@ -328,15 +332,3 @@ footer{
     padding-bottom: 20px;
     font-size: 0.625rem;
 }
-
-/*-------------------------------------------
-完成後削除
--------------------------------------------*/
-
-/* body{
-    background-color: aqua;
-}
-
-header{
-    background-color: bisque;
-} */
